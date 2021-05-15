@@ -1,0 +1,43 @@
+remote_theme: daattali/beautiful-jekyll@5.0.0
+title: Analia Carvallo
+author: Analia Carvallo
+
+permalink:        /:title.html 
+url:              https://anycoder.net
+baseurl:          ""
+disqus:           anycoder
+feed:             https://anycoder.net/feed.xml
+feed-type:        atom
+
+exclude:      [ "readme.md", "license.txt", "CNAME", "Gemfile" ]
+paginate:     10
+port:         3000
+host:         127.0.0.1
+
+title-img: /assets/img/any.svg
+avatar: /assets/img/any.jpg
+
+social-network-links:
+  alias:          anycoder
+  email:         anycarvallo@gmail.com
+  github:        anycarvallo
+  linkedin:       AnaliaCarvallo
+  stackoverflow:  15935352/anycoder
+  twitter:       anycarvallo
+
+navbar-links:
+  Blog: "https://anycoder.net"
+  GitHub: "https://github.com/anycarvallo"
+
+share-links-active:
+  github: true
+  linkedin: true
+  stackoverflow: true
+  twitter: true
+
+url-pretty: "anycoder.net"
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+
+keywords: "coding,C#,.NET,programming"
