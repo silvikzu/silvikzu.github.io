@@ -1,13 +1,18 @@
+plugins: 
+  - jekyll-paginate
+  - jekyll-remote-theme
+
 remote_theme: kzu/beautiful-jekyll@master
 title: Analia Carvallo
 author: Analia Carvallo
 keywords: "coding,C#,.NET,programming"
+google-search-id: 745e5e4dad17abd9b
 
 permalink:        /:title.html 
 url:              https://anycoder.net
 baseurl:          ""
 disqus:           anycoder
-feed:             https://anycoder.net/feed.xml
+feed:             /feed.xml
 feed-type:        atom
 
 exclude:      [ "readme.md", "license.txt", "CNAME", "Gemfile" ]
@@ -27,9 +32,9 @@ social-network-links:
   twitter:       anycarvallo
 
 navbar-links:
-  Blog: "https://anycoder.net"
-  Archive: "https://anycoder.net/archive/"
-  Tags: "https://anycoder.net/tags/"
+  Blog: "/"
+  Archive: "/archive/"
+  Tags: "/tags/"
   GitHub: "https://github.com/anycarvallo"
 
 share-links-active:
@@ -40,7 +45,5 @@ share-links-active:
 
 url-pretty: "anycoder.net"
 excerpt_length: 100
-feed_show_excerpt: true
 feed_show_tags: true
-
 hover-col: "#FFC926"

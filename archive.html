@@ -7,7 +7,10 @@ js:
 ---
 <div id="cloud" class="cloud"></div>
 
-{% include search.html %}
+{% if site.google-search-id != "" %}
+<script async src="https://cse.google.com/cse.js?cx={{ site.google-search-id }}"></script>
+<div class="gcse-searchbox-only"></div>
+{% endif %}
 
 <ul>
 {% for post in site.posts %}
