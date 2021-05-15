@@ -40,4 +40,6 @@ excerpt_length: 50
 feed_show_excerpt: true
 feed_show_tags: true
 
+hover-col: "#FFC926"
+
 keywords: "coding,C#,.NET,programming"
