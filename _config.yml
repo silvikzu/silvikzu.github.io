@@ -1,0 +1,125 @@
+remote_theme: daattali/beautiful-jekyll@5.0.0
+title : Analia Carvallo
+author :
+  name :          Analia Carvallo
+  alias:          anycoder
+  email :         anycarvallo@gmail.com
+  github :        anycarvallo
+  twitter :       anycarvallo
+  stackoverflow:  15935352/anycoder
+  linkedin:       in/AnaliaCarvallo
+  google:         +DanielCazzulino
+
+permalink:        /:title.html 
+url:              https://anycoder.net
+baseurl:          ""
+disqus:           anycoder
+google_analytics: "UA-20330792-1"
+feed:             https://anycoder.net/feed.xml
+feed-type:        atom
+
+exclude:      [ "README.md", "CNAME", ".gitattributes", ".gitignore", ".editorconfig" ]
+paginate:     10
+port:         3000
+host:         127.0.0.1
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      excerpt_separator: <!--more-->
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+      layout:   post
+      category: programming
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+
+# --- THEME OPTIONS --- #
+
+# --- Navigation bar options --- #
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: assets/img/any.jpg
+
+# List of links in the navigation bar
+navbar-links:
+  Home: "/"
+  Archive: "/archive/"
+  Tags: "/tags/"
+  About Me: "/about/"
+  
+# --- Footer options --- #
+# Select which links to show in the footer
+footer-links-active:
+  feed: true
+  facebook: false
+  email: false
+  twitter: true
+  github: true
+  linkedin: true
+  stackoverflow: true
+
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "anycoder.net"
+  
+# --- Don't need to touch anything below here (but you can if you want) --- #
+
+# prose.io config
+prose:
+  rooturl: '_posts'
+  media: 'img'
+  ignore:
+    - LICENSE
+    - feed.xml
+    - sitemap.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /assets
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+  
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
+  
