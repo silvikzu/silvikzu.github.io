@@ -1,6 +1,6 @@
 ---
 title: "Volviendo..."
-tags: [ programar, codificar, programming]
+tags: [programar]
 ---
 
 Hace varios años que estoy intentando volver al mundo de la programación después de mucho tiempo alejada.  
@@ -20,15 +20,15 @@ A Codificar.  😊
 ---
 
 
-I've been trying to get back into the world of programming for several years after a long time away.  Obligations, children, and other everyday things made me stay away, but always wanting to return to this exciting world.   
+I've been trying to get back into the world of programming for several years, after a long time away. Obligations, children, and other everyday things kept me away, but I always wanted to return to this exciting world.   
 
-It was and remains a challenge for me to get into the world of Object Orientation, to change the mentality of the procedural since I come from a very different programming, C, also exciting.
+It was and remains a challenge for me to get into the world of Object Orientation, to change the procedural mindset since I come from a very different programming language background, C, which is also exciting.
 
-I made up my mind, started doing online courses, reading documentation, watching videos and all that helped me and it's helping me lose my fear.  It's a whole world totally different from what I left in its moment. 
+I made up my mind, started doing online courses, reading documentation, watching videos and all that helped me and it's helping me lose my fear. It's a whole world totally different from what I left back in the day. 
 
-With the help of my mentor [@kzu](https://github.com/kzu) 😊, I was able to get into .NET C# and discover how it progressed and the magic it has.  Everything changed, the tools that make the programmer's life easier and write less code, make it more efficient.
+With the help of my mentor [@kzu](https://github.com/kzu) 😊, I was able to get into .NET C# and discover how it progressed and the magic it has. Everything changed, the tools that make the programmer's life easier and write less code, make it more efficient.
 
-Years I missed that sense of satisfaction and gratification that causes you to be involved in the world of programming.  
+For years I missed that sense of satisfaction and gratification that comes from being involved in the world of programming.  
 
 Let's code 😊
 
