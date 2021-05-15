@@ -15,8 +15,6 @@ permalink:        /:title.html
 url:              https://anycoder.net
 baseurl:          ""
 disqus:           anycoder
-feed:             /feed.xml
-feed-type:        atom
 
 exclude:      [ "readme.md", "license.txt", "CNAME", "Gemfile" ]
 paginate:     10
@@ -42,9 +40,10 @@ navbar-links:
 
 share-links-active:
   github: true
+  twitter: true
   linkedin: true
   stackoverflow: true
-  twitter: true
+  feed: true
 
 url-pretty: "anycoder.net"
 excerpt_length: 100
