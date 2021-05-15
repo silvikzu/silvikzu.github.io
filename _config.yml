@@ -1,6 +1,7 @@
 remote_theme: daattali/beautiful-jekyll@5.0.0
 title: Analia Carvallo
 author: Analia Carvallo
+keywords: "coding,C#,.NET,programming"
 
 permalink:        /:title.html 
 url:              https://anycoder.net
@@ -41,5 +42,3 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 hover-col: "#FFC926"
-
-keywords: "coding,C#,.NET,programming"
