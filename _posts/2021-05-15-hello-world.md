@@ -1,7 +1,5 @@
 ---
-title: "Hello World"
-description: "Hola m"
-image: /assets/img/any.svg
+title: "Hola Mundo"
 ---
 
-A ver como sale esto de tener un blog....
+A ver como sale esto de tener un blog de Any....

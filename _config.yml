@@ -36,7 +36,7 @@ share-links-active:
   twitter: true
 
 url-pretty: "anycoder.net"
-excerpt_length: 50
+excerpt_length: 100
 feed_show_excerpt: true
 feed_show_tags: true
 
