@@ -1,4 +1,4 @@
-remote_theme: daattali/beautiful-jekyll@5.0.0
+remote_theme: kzu/beautiful-jekyll@master
 title: Analia Carvallo
 author: Analia Carvallo
 keywords: "coding,C#,.NET,programming"
@@ -28,6 +28,8 @@ social-network-links:
 
 navbar-links:
   Blog: "https://anycoder.net"
+  Archive: "https://anycoder.net/archive/"
+  Tags: "https://anycoder.net/tags/"
   GitHub: "https://github.com/anycarvallo"
 
 share-links-active:
