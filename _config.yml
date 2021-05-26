@@ -6,10 +6,9 @@ remote_theme: kzu/beautiful-jekyll@master
 title: Analia Carvallo
 author: Analia Carvallo
 keywords: "coding,C#,.NET,programming"
-head-extra: favicon.html
-footer-extra: license.html
 google-search-id: 745e5e4dad17abd9b
 google_analytics: G-RD1ECCM3F2
+rss-description: Analia Carvallo
 
 permalink:        /:title.html 
 url:              https://anycoder.net
@@ -41,9 +40,14 @@ share-links-active:
   twitter: true
   linkedin: true
   stackoverflow: true
-  feed: true
 
 url-pretty: "anycoder.net"
 excerpt_length: 100
 feed_show_tags: true
 hover-col: "#FFC926"
+
+defaults:
+  -
+    values:
+      head-extra: favicon.html
+      footer-extra: license.html
