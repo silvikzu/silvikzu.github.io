@@ -11,9 +11,9 @@ google_analytics: G-RD1ECCM3F2
 rss-description: Silvina Cazzulino
 
 permalink:        /:title.html 
-url:              https://anycoder.net
+url:              https://silvina.cazzulino.com
 baseurl:          ""
-disqus:           anycoder
+disqus:           silvikzu
 
 exclude:      [ "readme.md", "license.txt", "CNAME", "Gemfile" ]
 paginate:     10
@@ -24,12 +24,11 @@ title-img: /assets/img/any.svg
 avatar: /assets/img/any.jpg
 
 social-network-links:
-  alias:          anycoder
-  email:         anycarvallo@gmail.com
-  github:        anycarvallo
-  linkedin:       AnaliaCarvallo
-  stackoverflow:  15935352/AnyCarvallo
-  twitter:       anycarvallo
+  alias:         anycoder
+  email:         silvina@cazzulino.com
+  github:        silvikzu
+  linkedin:       SilvinaCazzulino
+  twitter:       silvikzu
 
 navbar-links:
   Archive: "/archive/"
@@ -39,9 +38,8 @@ share-links-active:
   github: true
   twitter: true
   linkedin: true
-  stackoverflow: true
 
-url-pretty: "anycoder.net"
+url-pretty: "silvina.cazzulino.com"
 excerpt_length: 100
 feed_show_tags: true
 hover-col: "#FFC926"
